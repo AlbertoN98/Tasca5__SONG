@@ -2,28 +2,28 @@ import java.util.List;
 
 public class Song {
     private final static String frasePrimer = """
-                    There was an old lady who swallowed a BUG_1.
-                    I don't know why she swallowed a BUG_1 - perhaps she'll die!
+                    There was an old lady who swallowed a Animal1.
+                    I don't know why she swallowed a Animal1 - perhaps she'll die!
                     """;
     private final static String fraseSegun = """
-            There was an old lady who swallowed a BUG_2;
+            There was an old lady who swallowed a Animal2;
             That wriggled and wiggled and tickled inside her.
-            She swallowed the BUG_2 to catch the BUG_1;
-            I don't know why she swallowed a BUG_1 - perhaps she'll die!
+            She swallowed the Animal2 to catch the Animal1;
+            I don't know why she swallowed a Animal1 - perhaps she'll die!
             """;
     private final static String fraseTerce = """
-            There was an old lady who swallowed a BUG_3;
-            How absurd to swallow a BUG_3.
-            She swallowed the BUG_3 to catch the BUG_2,
-            She swallowed the BUG_2 to catch the BUG_1;
-            I don't know why she swallowed a BUG_1 - perhaps she'll die!
+            There was an old lady who swallowed a Animal3;
+            How absurd to swallow a Animal3.
+            She swallowed the Animal3 to catch the Animal2,
+            She swallowed the Animal2 to catch the Animal1;
+            I don't know why she swallowed a Animal1 - perhaps she'll die!
 
             """;
     private static String fraseEntera = "";
 
-    private final static String PRIMER_ANIMAL = "BUG_1";
-    private final static String SEGUNDO_ANIMAL = "BUG_2";
-    private final static String TERCER_ANIMAL = "BUG_3";
+    private final static String PRIMER_ANIMAL = "Animal1";
+    private final static String SEGUNDO_ANIMAL = "Animal2";
+    private final static String TERCER_ANIMAL = "Animal3";
 
 
     public static String crearCancion(List<String> TodosLosAnimales) {
